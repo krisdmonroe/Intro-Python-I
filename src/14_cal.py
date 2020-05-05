@@ -46,8 +46,12 @@ elif len(inputs) == 3:
   month = int(inputs[1])
   year = int(inputs[2])
 else:
-  print("Error\n Month first then Year Example: 1 2020")   
-  
+  print("Error\n Month first then Year Example: 1 2020")
+  exit()   
+if month < 1 or month > 12:
+  print ("Error\n Enter A month")
+  exit()
+
 c = calendar.TextCalendar(calendar.SUNDAY)
 
 
