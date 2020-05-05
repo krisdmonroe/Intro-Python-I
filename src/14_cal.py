@@ -47,7 +47,7 @@ elif len(inputs) == 3:
   year = int(inputs[2])
 else:
   print("Error\n Month first then Year Example: 1 2020")   
-
+  
 c = calendar.TextCalendar(calendar.SUNDAY)
 
 
